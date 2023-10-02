@@ -204,6 +204,23 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+input {
+  box-sizing: border-box;
+  width: 97%;
+  padding: 12px 20px;
+  margin: 8px 1.5%;
+  border: 0.0625em solid #ccc; /* 1px */
+  border-radius: 0.3750em; /* 6px */
+}
+
+#container {
+  border: 0.25em solid black;
+  display: block;
+  padding: 10px; 
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
 
 /* ===== STATE STYLES ======= */
 
