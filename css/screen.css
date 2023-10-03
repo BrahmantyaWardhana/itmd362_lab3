@@ -198,6 +198,18 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+h1 {
+  padding-top: 1.182em; /* 26px */
+  padding-bottom: 5.778em; /* 104px / 4 gridlines */
+}
+
+h2 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 2.779em; /* 61.136px */
+  line-height: 1.276em; /* 78 / 61.136px */
+  padding-bottom: 0.851em; /* 52 / 61.136 */
+}
+
 label {
   display: block;
 }
