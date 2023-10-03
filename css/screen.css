@@ -237,5 +237,12 @@ input {
 /* ===== STATE STYLES ======= */
 
 @media screen and (min-width: 768px) {
-
+  #container {
+    border: 0.25em solid black; /* 5.5px */
+    display: block;
+    padding: 0.454em; /* 10px */
+    margin: auto;
+    width: 60%;
+    text-align: left;
+  }
 }
