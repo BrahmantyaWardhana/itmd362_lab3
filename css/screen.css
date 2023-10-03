@@ -207,16 +207,15 @@ label {
 input {
   box-sizing: border-box;
   width: 97%;
-  padding: 12px 20px;
-  margin: 8px 1.5%;
-  border: 0.0625em solid #ccc; /* 1px */
-  border-radius: 0.3750em; /* 6px */
+  padding: 0.545em 0.91em; /* 12px / 20px */
+  margin: 0.364em 1.5%; /* 8px */
+  border: 0.091em dotted grey; /* 2px */
 }
 
 #container {
-  border: 0.25em solid black;
+  border: 0.25em solid black; /* 5.5px */
   display: block;
-  padding: 10px; 
+  padding: 0.454em; /* 10px */
   margin: auto;
   width: 80%;
   text-align: center;
