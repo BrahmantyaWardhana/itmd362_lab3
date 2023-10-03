@@ -195,6 +195,7 @@ html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
+  font-family: "Courier New", Courier, monospace;
   text-rendering: optimizeLegibility;
 }
 
@@ -235,3 +236,6 @@ input {
 
 /* ===== STATE STYLES ======= */
 
+@media screen and (min-width: 768px) {
+
+}
