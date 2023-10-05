@@ -202,6 +202,7 @@ html {
 h1 {
   padding-top: 1.182em; /* 26px */
   padding-bottom: 2.364em; /* 52px */
+  font-weight: bold;
 }
 
 h2 {
@@ -211,15 +212,10 @@ h2 {
   padding-bottom: 0.851em; /* 52 / 61.136 */
 }
 
-label {
-  display: block;
-}
-
 /* ===== LAYOUT STYLES ====== */
 
 input {
   box-sizing: border-box;
-  width: 97%;
   padding: 0.545em 0.91em; /* 12px / 20px */
   margin: 0.364em 1.5%; /* 8px */
   border: 0.091em dotted grey; /* 2px */
@@ -228,7 +224,7 @@ input {
 #container {
   border: 0.25em solid black; /* 5.5px */
   display: block;
-  padding: 0.454em; /* 10px */
+  padding: 5%; /* 10px */
   margin: auto;
   width: 80%;
   text-align: center;
@@ -240,7 +236,7 @@ input {
   #container {
     border: 0.25em solid black; /* 5.5px */
     display: block;
-    padding: 0.454em; /* 10px */
+    padding: 5%; /* 10px */
     margin: auto;
     width: 60%;
     text-align: left;
